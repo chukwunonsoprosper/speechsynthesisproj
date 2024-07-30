@@ -1,0 +1,1 @@
+export const thost=t=>{const e=`<div id='thethost' class="thostjs">\n        <div class="data">\n            <p>${t}</p>\n        </div>\n    </div>`;setTimeout((()=>{document.getElementById("thethost").classList.add("thosefadeout")}),5e3),document.querySelector("body").innerHTML+=e};
